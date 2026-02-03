@@ -22,7 +22,7 @@ new Database();
 
 // 3. Build Container
 $builder = new \DI\ContainerBuilder();
-$builder->addDefinitions(require __DIR__ . '/../packages/framework/src/CoreDefinitions.php');
+$builder->addDefinitions(require __DIR__ . '/../vendor/nanophp/framework/src/CoreDefinitions.php');
 if (file_exists(__DIR__ . '/../config/definitions.php')) {
     $builder->addDefinitions(__DIR__ . '/../config/definitions.php');
 }
@@ -32,6 +32,6 @@ $container = $builder->build();
 \Nano\Framework\Facade::setContainer($container);
 
 // 5. Create Application instance
-$app = new \Nano\Framework\Application($container);
+$app = new \Nano\Framework\Application($container, __DIR__ . '/..');
 
 return $app;
