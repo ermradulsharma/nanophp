@@ -13,12 +13,12 @@
     "homepage": "https://github.com/nanophp/nanophp",
     "repositories": [
         {
-            "type": "path",
-            "url": "packages/framework"
+            "type": "vcs",
+            "url": "https://github.com/ermradulsharma/nanophp-framework"
         },
         {
-            "type": "path",
-            "url": "packages/installer"
+            "type": "vcs",
+            "url": "https://github.com/ermradulsharma/nanophp-installer"
         }
     ],
     "autoload": {
@@ -30,7 +30,7 @@
         "php": ">=8.1",
         "dragonmantank/cron-expression": "^3.6",
         "league/flysystem": "3.0",
-        "nanophp/framework": "^1.0",
+        "nanophp/framework": "dev-main",
         "symfony/process": "^7.4"
     },
     "require-dev": {

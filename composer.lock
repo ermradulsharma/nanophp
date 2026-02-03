@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b9d57b1c7f25a0212e6bb7373ef550e",
+    "content-hash": "0b85c6416462b6b638a7d24383f6ce32",
     "packages": [
         {
             "name": "brick/math",
@@ -1742,11 +1742,17 @@
         },
         {
             "name": "nanophp/framework",
-            "version": "1.0.0",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ermradulsharma/nanophp-framework.git",
+                "reference": "5594105bd9f69d0e3f4bfdcd81723c3f48a75f82"
+            },
             "dist": {
-                "type": "path",
-                "url": "packages/framework",
-                "reference": "9655e9c6e6dbefd7a5702d85a34732b831e06ea2"
+                "type": "zip",
+                "url": "https://api.github.com/repos/ermradulsharma/nanophp-framework/zipball/5594105bd9f69d0e3f4bfdcd81723c3f48a75f82",
+                "reference": "5594105bd9f69d0e3f4bfdcd81723c3f48a75f82",
+                "shasum": ""
             },
             "require": {
                 "illuminate/container": "^11.0",
@@ -1767,6 +1773,7 @@
                 "symfony/console": "^7.4",
                 "vlucas/phpdotenv": "^5.6"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -1780,9 +1787,11 @@
                 "MIT"
             ],
             "description": "The core framework for NanoPHP",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/ermradulsharma/nanophp-framework/tree/main",
+                "issues": "https://github.com/ermradulsharma/nanophp-framework/issues"
+            },
+            "time": "2026-02-03T14:24:19+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -6119,7 +6128,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "nanophp/framework": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
