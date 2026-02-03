@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+/** @var \Nano\Framework\Application $app */
+$app = require __DIR__ . '/bootstrap/app.php';
+
+$console = new \Symfony\Component\Console\Application('NanoPHP CLI', '1.0.0');
+
+// Register framework commands
+$console->addCommands($app->getCoreCommands());
+
+// Register user commands if any
+// $console->add(new \App\Commands\YourCommand());
+
+$console->run();
