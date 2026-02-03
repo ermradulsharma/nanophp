@@ -10,7 +10,7 @@
         "php",
         "web"
     ],
-    "homepage": "https://github.com/nanophp/nanophp",
+    "homepage": "https://github.com/ermradulsharma/nanophp",
     "repositories": [
         {
             "type": "vcs",
