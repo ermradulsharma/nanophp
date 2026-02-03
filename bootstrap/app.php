@@ -21,6 +21,7 @@ if (file_exists($cachePath)) {
 new Database();
 
 // 3. Build Container
+$GLOBALS['__nano_base_path'] = __DIR__ . '/..';
 $builder = new \DI\ContainerBuilder();
 $builder->addDefinitions(require __DIR__ . '/../vendor/nanophp/framework/src/CoreDefinitions.php');
 if (file_exists(__DIR__ . '/../config/definitions.php')) {
