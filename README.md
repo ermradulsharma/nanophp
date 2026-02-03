@@ -257,4 +257,4 @@ NanoPHP is open-sourced software licensed under the [MIT license](LICENSE.md).
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/ermradulsharma">Radul Sharma</a></p>
+<p align="center">Made with ❤️ by <a href="https://github.com/ermradulsharma">Er. Mradul Sharma</a></p>
