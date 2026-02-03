@@ -28,10 +28,7 @@
     },
     "require": {
         "php": ">=8.1",
-        "dragonmantank/cron-expression": "^3.6",
-        "league/flysystem": "3.0",
-        "nanophp/framework": "dev-main",
-        "symfony/process": "^7.4"
+        "nanophp/framework": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.24",
